@@ -1,0 +1,47 @@
+section {
+  margin-top: 200px;
+}
+
+.conteudo-contet {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1700px;
+  margin: 0 auto;
+}
+.conteudo-titulo h1 {
+  font-size: 90px;
+  margin-bottom: 30px;
+  color: rgb(7, 7, 7);
+  animation: titulo 2s ease-in-out;
+ 
+}
+@keyframes titulo {
+  0% {
+    color: rgb(78, 18, 219);
+    translate: 70px;
+  }
+
+  50% {
+    color: rgb(60, 17, 160);
+  }
+
+  100% {
+    color: rgb(39, 12, 104);
+  }
+}
+.conteudo-titulo p {
+  font-size: 25px;
+  color: rgb(14, 13, 13);
+}
+.conteudo-titulo a {
+  position: relative;
+  top: 40px;
+  left: 130px;
+  text-decoration: none;
+  font-size: 25px;
+  background-color: blueviolet;
+  color: white;
+  padding: 15px 130px;
+  border-radius: 10px;
+}

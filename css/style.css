@@ -1,0 +1,35 @@
+@import url("titulo.css");
+@import url("contetudo.css");
+@import url("not.css");
+
+* {
+  margin: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+}
+body {
+  background: linear-gradient(
+    45deg,
+    rgb(82, 44, 216),
+    #7462ff,
+    rgb(111, 49, 211)
+  );
+
+  background-size: 300% 300%;
+
+  animation: color 12s ease-in-out infinite;
+
+  height: 100vh;
+}
+
+@keyframes color {
+  0% {
+    background-position: 0 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0 50%;
+  }
+}
